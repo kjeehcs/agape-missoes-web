@@ -1,0 +1,19 @@
+# Dependências e artefatos
+node_modules
+dist
+.vite-react-ssg-temp
+
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+*.local
+
+# IDE e ferramentas locais
+.vscode/
+.idea/
+.claude/
+
+# Sistema
+.DS_Store
+Thumbs.db
